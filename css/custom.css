@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{  
+    color: #656565;
+}
+
+table{
+    width:100%;;
+}
+
+.imgDirectorio {
+    margin-right: 10px;
+    width: 90px;
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 2px solid;
+}
+
+
+.frameExpositor {
+    margin: 5px;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #233956;
+        height: 315px !important;
+        background-color: #f2f1f1;
+}
+
+.tituloDirectorio {
+    font-weight: 700;
+    color: #F39200;
+    min-height: 75px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 31px;
+}
+
+.box h5{
+    color: #656565;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.box p{
+    color: #656565;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+
+/*maximo de 1024px*/
+@media only screen and (max-width:1024px) {
+  .col-sm-3 {
+    width: 100% !important;
+  }
+  
+  .col-sm-9 {
+    width: 100% !important;
+  }
+  
+  .img-des {
+      text-align: center;
+  }
+  
+  div.view {
+    height: 500px;
+  }
+  
+}
+
+@media only screen and (max-width:800px){
+    div.view {
+    height: 560px;
+  }
+}
+
+@media only screen and (max-width:600px){
+    div.view {
+    height: 720px;
+  }
+}
+
+@media only screen and (max-width:500px){
+   .col-xs-4 {
+    width: 100% !important;
+  }
+  .imgDirectorio {
+      width: 120px;
+  }
+  .tituloDirectorio {
+      text-align: center;
+  }
+   div.view {
+    height: 510px;
+  }
+}
+
+@media only screen and (max-width:320px){
+    div.view {
+    height: 540px;
+  }
+}
